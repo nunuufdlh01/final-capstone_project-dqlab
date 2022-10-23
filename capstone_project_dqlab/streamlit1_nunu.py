@@ -272,7 +272,8 @@ else:
     st.write("Dari 26 negara yang terdapat di dataset, hanya ada 1 negara yang memiliki durasi membaca, durasi penggunaan media sosial, "
          "dan persentase jumlah pengguna aktif media sosial di bawah rata-rata, yaitu Italia.")
 
-st.write("Pertanyaan selanjutnya adalah bagaimana perbandingan jumlah penduduk dengan jumlah pengguna aktif media sosial?. Berikut ini disajikan 5 negara teratas dan terbawah berdasarkan jumlah penduduknya.")
+st.write("Pertanyaan selanjutnya adalah bagaimana perbandingan jumlah penduduk dengan jumlah pengguna aktif media sosial? dan bagaimana pula perbandingan durasi membaca buku dan durasi penggunaan media sosial di 26 negara tersebut? "
+         "Berikut ini jawabannya.")
 
 st.header("Perbandingan Jumlah Penduduk vs Jumlah Pengguna Aktif Media Sosial dan Durasi Membaca vs Durasi Penggunaan Media Sosial")
 
