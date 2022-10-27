@@ -372,7 +372,7 @@ if selectbox_hub == "Durasi Membaca dan Durasi Penggunaan Media Sosial":
     with col2:
         hub1 = scipy.stats.pearsonr(df['Durasi Membaca'], df['Durasi Media Sosial'])
         st.text(hub1)
-        st.write("Dari scatter plot di atas, hubungan 2 variabel tersebut menunjukkan plot memiliki hubungan yang positif, "
+        st.write("Dari scatter plot di samping, hubungan 2 variabel tersebut menunjukkan plot memiliki hubungan yang positif, "
                  "berarti bahwa semakin lama durasi menggunakan media sosial, maka semakin lama durasi seseorang untuk menghabiskan waktunya dalam membaca buku. "
                  "Sebaliknya, semakin singkat durasi menggunakan media sosial, maka semakin singkat juga durasi membacanya. "
                  "Kalau secara logika, simpulan itu tentu tidak masuk di nalar kita. Hal ini bisa diperhatikan melalui besar korelasi dan nilai signifikansinya. "
